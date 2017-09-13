@@ -1,0 +1,21 @@
+Objects - Objects are a variable that allows you to store different properties about it, that can then
+be easily accessed individually or as a group. For example, if I wanted to create myself in a program,
+I could do a bunch of variables like justinName, justinAge, justinEmail, and so on. Instead, I could
+create a justin object with the properties name, age, email, etc. which keeps the code much more
+organized. This can also be used for groups of objects where you may collect lots of the same type,
+like users.
+
+Properties - Properties are the values associated with an object. In the example above, name, age,
+email would be the properties. Properties can be easily accessed individually from outside the object.
+
+Methods - Methods are actions that can be performed on an object. They can be built in methods such as
+toUpperCase, which converts all the characters of a string to uppercase, or they can be methods that
+you create by attaching a function to a property of the object.
+
+For In loops - The for-in loop simply loops through all properties of the object. It activates the line
+of code contained in the loop once for each property contained in the object.
+
+Dot vs. Bracket notation - Dot notation and bracket notation are two different ways to access an
+object's properties. For example, object.property would access the same thing as object['property'].
+Dot notation can be easier to read, however it cannot be used with variables or numbers. In that case,
+bracket notation would be preferred. 
